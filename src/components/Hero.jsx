@@ -19,12 +19,14 @@ const Hero = () => {
             Hey there, I'm <span className="text-[#915EFF]">Adarsh</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I write dreams with C++, Python and JavaScript.
+            I write dreams in C++, Python and JavaScript.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      <div className="hidden sm:inline">
+        <ComputersCanvas />
+      </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
